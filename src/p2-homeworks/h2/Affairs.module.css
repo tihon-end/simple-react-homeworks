@@ -1,3 +1,21 @@
-.someClass {
 
+
+.btn {
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 10px;
 }
+
+.btn:hover {
+    background: #be2323;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+

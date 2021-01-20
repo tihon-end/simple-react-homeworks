@@ -1,7 +1,35 @@
 .someClass {
-
+    text-align: center;
+    border: 1px solid #0f706d;
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px;
+    margin: 0 auto;
 }
 
 .error {
-    border: 1px solid red;
+   border: 1px solid red;
 }
+
+.btn {
+    background: linear-gradient(to bottom, #07b810, #f1da36);
+    margin-left: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+.btn:hover{
+    background: linear-gradient(to bottom, #9207b8, #f1da36);
+}
+
+.inputClass {
+    outline: none;
+    border-radius: 5px;
+    background-color: #efebeb;
+}
+.total{
+    border: #be2323;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
