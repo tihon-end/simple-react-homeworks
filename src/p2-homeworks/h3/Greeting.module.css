@@ -5,31 +5,40 @@
     width: 300px;
     padding: 5px;
     margin: 0 auto;
+
 }
 
 .error {
-   border: 1px solid red;
+    border: 3px solid red;
 }
 
 .btn {
-    background: linear-gradient(to bottom, #07b810, #f1da36);
+    background: linear-gradient(to bottom, #07b810, #4873d6);
     margin-left: 5px;
     border-radius: 5px;
     outline: none;
+
 }
-.btn:hover{
-    background: linear-gradient(to bottom, #9207b8, #f1da36);
+
+.btn:hover {
+    background: linear-gradient(to bottom, #0dd2cc, #0e4580);
 }
 
 .inputClass {
     outline: none;
     border-radius: 5px;
     background-color: #efebeb;
+
 }
-.total{
+
+.total {
     border: #be2323;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
+input:focus {
+    color: #0338c6;
+
+}
